@@ -1,0 +1,32 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 1.8rem;
+  background: linear-gradient(
+    150deg,
+    rgb(22, 6, 243),
+    rgb(27, 230, 61),
+    rgb(10, 228, 162)
+  );
+  color: white;
+}
+
+.logo {
+  cursor: pointer;
+}
+
+.mode-btn {
+  background-color: #ffffff;
+  color: black;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 0.6rem;
+}
+
+:global(body.dark) .mode-btn {
+  background-color: black;
+  color: white;
+}
